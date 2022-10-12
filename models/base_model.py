@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""This is the base model class for AirBnB"""
+"""Creates the base model class for AirBnB"""
 import uuid
 import models
 from datetime import datetime
@@ -81,7 +81,7 @@ class BaseModel:
         return my_dict
 
     def delete(self):
-        """delete the current instance from the storage
+        """deletes the current instance from the storage
         using file storage instance method delete
         """
         models.storage.delete(self)
