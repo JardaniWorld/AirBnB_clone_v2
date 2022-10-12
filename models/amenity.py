@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""This is the amenity class"""
+"""Creates the amenity class."""
 from models.base_model import BaseModel, Base
 from models.place import place_amenity
 from sqlalchemy import Column, String
