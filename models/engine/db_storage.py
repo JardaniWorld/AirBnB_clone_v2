@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""This is the db storage class for AirBnB"""
+"""Creates the db storage class for AirBnB"""
 from models.base_model import BaseModel, Base
 from models.user import User
 from models.state import State
